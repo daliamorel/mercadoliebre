@@ -1,0 +1,57 @@
+body{
+    background-color: #fbbc02;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+
+}
+.contenedor {
+    position: fixed;
+    top: 150px;
+    left: 340px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+}
+.datos {
+    padding: 5px;
+}
+label {
+    font-size: 17px;
+    position: absolute;
+    left: 30px;
+}
+input {
+    position: relative;
+    left: 60px;
+    width: 180px;
+    height: 30px;
+    padding-left: 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 196, 196);
+}
+.logo {
+    position: absolute;
+    left: 140px;
+    top: 50px;
+}
+.registro {
+    position: relative;
+    top: 70px;
+    
+}
+h1 {
+    font-size: 25px;
+}
+#boton {
+    position: absolute;
+    left: 30px;
+    color: white;
+    background-color: rgb(57, 3, 145);
+    width: 90px;
+    height: 45px;
+    font-size: 19px;
+}
